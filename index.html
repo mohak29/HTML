@@ -3,16 +3,12 @@
 <head>
 	<title>Assignment</title>
 <style>
+
+
 .container {
     position: relative;
     text-align: left;
     color: black;
-}
-
-.pos{
-	position: relative;
-	top: -260px;
-
 }
 
 .bottom-right {
@@ -34,6 +30,10 @@
 	margin-top: 10px;
 	margin-bottom: 10px;
 	padding: 10px;
+}
+
+.item{
+	font-size: 12px;
 }
 
 h1{
@@ -58,41 +58,102 @@ p{
 
 <section>
 	
-<div style="display: inline-block; width: 29%;border: 1px solid red;">
+<div style="display: inline-block; vertical-align: top; width: 29%">
 	<div class="container">
 		<img src="img\face.jpg">
 		<div class="bottom-right">Albert<br>UI/UX Expert</div>
 	</div>
-	<div class="img_box">
-		Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas finibus facilisis placerat. Duis finibus sed magna imperdiet tristique. Morbi justo libero, et mi ut, sollicitudin gravida sem.
-		<hr>
 
-		(880) 1737-662662<br>Mobile
-		<br><br>
-		(880) 1771-229229<br>Work
-		<hr>
+	<ul class="img_box">
 
-		mail@gmail.com<br>Personal
-		<br><br>
-		dev@developer.com<br>Work
-		<hr>
+		<li>
+		<div style="display: inline-block; vertical-align: top; width: 28%;margin-top: 20px">
+			<img src="img\person.png" align="right" width="90px" height="70px">
+		</div>
 
-		24 Golden Tower<br>Amberkhana, Syllhet
-	</div>
+		<div style="display: inline-block; width: 65%; margin-top: 20px">
+		Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas finibus facilisis placerat. Duis finibus sed magna imperdiet tristique. Morbi justo libero, et mi ut, sollicitudin gravida sem.<br><br>
+		<hr></div>
+		</li>
+
+		<li>
+		<div style="display: inline-block; vertical-align: top; width: 28%; margin-top: 20px">
+			<img src="img\call.png" width="80px" height="80px">
+		</div>	
+		<div style="display: inline-block; width: 65%; margin-top: 20px;">
+		<ul style="list-style-type: none; padding: 0">
+		<li>(880) 1737-662662</li>
+		<li class="item">Mobile</li>
+		<br>
+		<li>(880) 1771-229229</li>
+		<li class="item">Work</li>
+		</ul><br>
+		<hr></div>
+		</li>
+
+		<li>
+		<div style="display: inline-block; vertical-align: top; width: 28%; margin-top: 20px">
+			<img src="img\mail.png" width="120px" height="80px">
+		</div>	
+		<div style="display: inline-block; width: 65%;  margin-top: 20px">
+		<ul style="list-style-type: none; padding: 0">
+		<li>mail@gmail.com</li>
+		<li class="item">Personal</li>
+		<br>
+		<li>dev@developer.com</li>
+		<li class="item">Work</li>
+		</ul><br><hr></div></li>
+
+		<li>
+		<div style="display: inline-block; vertical-align: top; width: 28%; margin-top: 20px">
+			<img src="img\add.png" width="100px" height="80px">
+		</div>	
+		<div style="display: inline-block; width: 65%; margin-top: 20px">
+		<ul style="list-style-type: none; padding: 0">
+		<li>24 Golden Tower</li>
+		<li>Amberkhana, Syllhet</li>
+		<li class="item">SYL-3RF87W</li>
+		</ul><br><hr></div></li>
+
+		<li>
+		<div style="display: inline-block; vertical-align: top; width: 28%; margin-top: 20px">
+			<img src="img\skills.png" width="100px" height="80px">
+		</div>	
+		<div style="display: inline-block; width: 65%; margin-top: 20px">
+		<ul style="list-style-type: none; padding: 0">
+		<li style="font-size: 20px">Professional Skills</li><br>
+		<li>Adobe Photoshop</li>
+		<input type="range" value="95"><br>
+
+		<li>Adobe Illustrator</li>
+		<input type="range" value="80"><br>
+
+		<li>HTML5 &amp; CSS3</li>
+		<input type="range" value="90"><br>
+
+		<li>Java Script</li>
+		<input type="range" value="70"><br>
+		</ul></div></li>
+
+	</ul>
+
+
+
+
 </div>
 
 
-<div style="display: inline-block; width: 70%;background-color: #a7a8aa; border: 1px solid green;">
+<div style="display: inline-block; width: 70%;background-color: #e4e4e4">
 
 	<div class="box">
-		<div style="display: inline-block; width: 10%">
-			<img src="img\tick.png" width="100%" class="pos">
+		<div style="display: inline-block; vertical-align: top; width: 10%">
+			<img src="img\tick.png" width="100%">
 		</div>
 
 
 		<div style="display: inline-block; width:89%">
 		<h1>Work Experiences</h1>
-		<h4>UI & WEB DESIGNER @Academy</h4>
+		<h4>UI &amp; WEB DESIGNER @Academy</h4>
 		<p style="color: blue">JAN 2013 - DEC 2014</p>
 		Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas finibus facilisis placerat. Duis finibus sed magna imperdiet tristique. Morbi justo libero, pellentesque et mi ut, sollicitudin gravida sem.
 		<hr>
@@ -107,13 +168,13 @@ p{
 	</div>
 
 	<div class="box">
-		<div style="display: inline-block; width: 10%">
-			<img src="img\edu.png" width="100%" class="pos">
+		<div style="display: inline-block; vertical-align: top; width: 10%">
+			<img src="img\edu.png" width="100%">
 		</div>
 
 		<div style="display: inline-block; width:89%">
 		<h1>Education</h1>
-		<h4>Art & Multimedia @Lorem University</h4>
+		<h4>Art &amp; Multimedia @Lorem University</h4>
 		<p style="color: blue">JAN 2013 - DEC 2014</p>
 		Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas finibus facilisis placerat. Duis finibus sed magna imperdiet tristique. Morbi justo libero, pellentesque et mi ut, sollicitudin gravida sem.
 		<hr>
@@ -127,6 +188,26 @@ p{
 		</div>
 	</div>
 
+
+		<div class="box">
+		<div style="display: inline-block; vertical-align: top; width: 10%">
+			<img src="img\int.png" width="100%">
+		</div>
+
+		<div style="display: inline-block; width:89%">
+		<h1>Interests</h1>
+
+		<nav style="padding-right: 20px">
+			<img src="img\gtr.png">
+			<img src="img\ic.png">
+			<img src="img\plane.png">
+			<img src="img\ball.png">
+			<img src="img\pencil.png">
+
+		</nav>
+
+		</div>
+	</div>
 
 </div>
 </section>
