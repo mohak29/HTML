@@ -1,0 +1,115 @@
+$blue: #38a5dd;
+$white: #e4e4e4;
+$gray: #fafcfb;
+
+%fl{
+	display : flex;
+}
+
+%bb{
+	border-bottom-color: white;
+	border-bottom-style: groove;
+}
+
+%m-l{
+		margin : 0% 0% 0% 10%;
+}
+
+.m-l2{
+		margin-left : 2%;
+}
+
+
+%p-rb{
+		padding: 0 10% 10% 0
+}
+
+%p-t{
+	padding-top:  10%;
+}
+
+.item{
+font-size: 12px;
+}
+
+.div-left{
+	width: 30%;
+	background-color: $blue;	
+	color: white;
+}
+
+.div-right{
+	width: 70%;
+	background-color: $white;
+}
+
+
+.ul-left{
+	@extend %m-l;
+	list-style-type: none;
+	padding: 0px;
+	
+}
+
+.ul-right{
+	background-color: $gray;
+	list-style-type: none;
+	margin: 5%;
+	padding-top: 2%;
+}
+
+
+.div-ul{
+	@extend %bb;
+	@extend %m-l;
+	@extend %p-rb;
+	flex-basis: calc(80% - 36px);
+	
+}
+
+
+.div-bb{
+	padding: 0 2% 2% 0;
+	@extend %bb;	
+}
+
+.div-last{
+	padding: 0 2% 2% 0;
+}
+.div-pro{	
+	@extend %m-l;
+	@extend %p-rb;
+}
+
+.div-li{
+	@extend %fl;
+	@extend %p-t;
+}
+
+.div-right-fl{
+	@extend %fl;
+}
+
+nav{
+	@extend %fl;
+	flex-direction: row;
+	justify-content: space-around;
+	padding: 5%;
+}
+
+h2{
+	margin-top : 0px;	
+}
+
+h1{
+	margin : 0px;
+}
+
+p{
+	color: blue;
+}
+
+body{
+	@extend %fl;
+	margin: 0px;
+}

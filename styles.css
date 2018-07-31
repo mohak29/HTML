@@ -1,0 +1,87 @@
+body, nav, .div-right-fl, .div-li {
+  display: flex;
+}
+
+.div-bb, .div-ul {
+  border-bottom-color: white;
+  border-bottom-style: groove;
+}
+
+.div-pro, .div-ul, .ul-left {
+  margin: 0% 0% 0% 10%;
+}
+
+.m-l2 {
+  margin-left: 2%;
+}
+
+.div-pro, .div-ul {
+  padding: 0 10% 10% 0;
+}
+
+.div-li {
+  padding-top: 10%;
+}
+
+.item {
+  font-size: 12px;
+}
+
+.div-left {
+  width: 30%;
+  background-color: #38a5dd;
+  color: white;
+}
+
+.div-right {
+  width: 70%;
+  background-color: #e4e4e4;
+}
+
+.ul-left {
+  list-style-type: none;
+  padding: 0px;
+}
+
+.ul-right {
+  background-color: #fafcfb;
+  list-style-type: none;
+  margin: 5%;
+  padding-top: 2%;
+}
+
+.div-ul {
+  flex-basis: calc(80% - 36px);
+}
+
+.div-bb {
+  padding: 0 2% 2% 0;
+}
+
+.div-last {
+  padding: 0 2% 2% 0;
+}
+
+nav {
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 5%;
+}
+
+h2 {
+  margin-top: 0px;
+}
+
+h1 {
+  margin: 0px;
+}
+
+p {
+  color: blue;
+}
+
+body {
+  margin: 0px;
+}
+
+/*# sourceMappingURL=styles.css.map */
